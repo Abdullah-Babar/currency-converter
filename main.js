@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 const currency = {
     USD: 1,
     EUR: 0.91,
-    GBP: 0.76,
+    SR: 3.75,
     INR: 74.57,
     PKR: 278
 };
@@ -13,13 +13,13 @@ let userAnswer = await inquirer.prompt([
         name: "from",
         type: "list",
         message: "Enter Your From Currency",
-        choices: ['USD', 'EUR', 'GBP', 'INR', 'PKR']
+        choices: ['USD', 'EUR', 'SR', 'INR', 'PKR']
     },
     {
         name: "to",
         type: "list",
         message: "Enter Your To Currency",
-        choices: ['USD', 'EUR', 'GBP', 'INR', 'PKR']
+        choices: ['USD', 'EUR', 'SR', 'INR', 'PKR']
     },
     {
         name: "amount",

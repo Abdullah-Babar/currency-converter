@@ -1,6 +1,6 @@
 {
   "name": "abd994-currency-converter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is my currency converter machine",
   "main": "main.js",
   "type": "module",
